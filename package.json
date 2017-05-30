@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest"
+      , "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "author": "Hosein2398 <hosein2398@gmail.com> (google.com)",
   "license": "ISC",
